@@ -47,7 +47,25 @@ cout << numberLongTwo << endl;
 
 //* long datatype memory size was depend on the machine processor on 32 bit CPU it takes 4 byte and in 64 bt CPU it takes 8 byte of memory space in our program. 
 // We can check that also with the help of sizeof function 
-cout << sizeof(numberLongOne) << endl; //* Output was 4 means 4 byte because of 32 bit CPU 
+cout << sizeof(numberLongOne) << endl; //* Output was 4 means 4 byte because of 32 bit CPU  
+
+//? Bool or Boolean Datatype 
+// When we need logical value to stored for logical based situation or operation or conditional based operation in our program than we use bool datatype which have only two values true and false.
+
+bool flag = true; 
+
+cout << flag << endl;  // Output : 1 which was equivalent to true   
+
+flag = false; 
+
+cout << flag << '\n';  // Output : 0 which was equivalent to false  
+
+//* Let's check how much memory space taken by bool values with sizeof() operator 
+cout << sizeof(flag) << endl; // Output : 1 it means 1 Byte 
+
+//? In this bool datatype our 7 bits are just wasted because we represent our true with 1 and 0 for false and we are using Byte when our work completed with 1 bit also because the smallest unit to represent program memory was Byte only.
+
+
 
 //! Here we understand that In C++ Datatypes are machine dependent they depends on CPU Processor
 
