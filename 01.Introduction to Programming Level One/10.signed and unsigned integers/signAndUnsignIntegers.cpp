@@ -6,7 +6,7 @@ int main() {
 //* In C++ there was two types of integers 
 //? Signed integers 
 //*  Signed which range was from -2**n to 2**n - 1 from negative to positive numbers 
-// As we know that integers take 4 Bytes of memory in our program and maximum value upto stored in our integer datatype was 2**32 which was 4294967296 value but in signed we have negative value and positive value also so this value was divide between that -2147483648 to 2147483648 
+// As we know that integers take 4 Bytes of memory in our program and maximum value upto stored in our integer datatype was 2**32 which was 4294967296 value but in signed we have negative value and positive value also so this value was divide between that -2147483648 to 2147483647
 
 //* Let see the example of signed integer 
 int numberX = 100; 
